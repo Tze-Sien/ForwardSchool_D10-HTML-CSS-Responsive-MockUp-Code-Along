@@ -9,7 +9,7 @@ body{
     background:#fdb667 url("../img/texture.png") repeat;
     background-size: cover;
     height: 100%;
-    width: 99%;
+
 }
 
 .bg-l-orange {
@@ -99,10 +99,6 @@ p {
     margin: 0 auto;
 }
 
-.container-fluid {
-    width: 100%;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -112,8 +108,6 @@ p {
 .text-center {
     text-align: center;
 }
-
-
 
 .mx-auto {
     margin: 0 auto;
@@ -133,8 +127,6 @@ p {
     border: none;
     width: 100%;
 }
-
-
 
 .d-flex {
     display: flex;
@@ -186,6 +178,7 @@ p {
 }
 
 .w-100 {width: 100%;}
+
 .h-100 {height: 100%;}
 .h-1 {height: 0.25rem;}
 .h-2 {height: 0.5rem;}
@@ -200,6 +193,7 @@ p {
 .f-4 {font-size: 1.5rem;}
 .f-5 {font-size: 3rem;}
 .f-6 {font-size: 5rem;}
+
 .vertical-align{
     align-items: center;
 }
@@ -208,6 +202,10 @@ p {
     background: black;
     color: white;
     width: 100%;
+}
+
+.half{
+    width: 50%;
 }
 
 @media (min-width: 400px) {
@@ -280,6 +278,6 @@ p {
     }
 }
 
-@media (min-width: 1100) {
+@media (min-width: 1200px) {
     h1,h2{font-size: 8.75em;}
 }
